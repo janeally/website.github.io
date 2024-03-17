@@ -1,0 +1,206 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color:rgb(1, 1, 83);
+position: fixed;
+top: 0;
+left:0 ;
+width: 100%;
+
+}
+.header  span.logo
+{
+    background:linear-gradient(to right, #4300fcf3, #f901fc);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+     
+     padding:90px;
+     font-size:30px;
+     display:absolute;
+}
+
+.nav
+{
+    text-align:right;
+    padding-right:80px;
+    margin-top: -25px;
+}
+
+
+
+.header h3 a
+{display:absolute;
+   
+	margin-right: 35px;
+	background:linear-gradient(to left, #4200fc, #f901fc);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+     transition: background-color 0.3s, border-bottom 0.3s;
+     
+}
+.header h3 a:hover {
+    
+    border-bottom: 8px solid transparent; /* Set initial border to transparent */
+    background-image: linear-gradient(to right, #00a0fc, #fc01b1); /* Gradient color for hover */
+max-width: 100%;
+}
+
+
+section {
+    padding: 50px;
+    height:100vh;
+   
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#home {
+    background-image: url("homepagebg.jpg");
+    display:absolute;
+background-repeat:no-repeat;
+
+background-size: cover;
+max-width: 100%; 
+
+}
+#home{
+    display:absolute;
+}
+.greetings h1 {
+     /* Example font family */
+    font-size: 24px; /* Example font size */
+    
+    padding-left:100px;
+    padding-top:189px;
+    padding-bottom:10px;
+}
+
+.greetings h1 span.white {
+    
+    color:white;
+    font-family:Tahoma; 
+    letter-spacing:4.0px;
+font-size:40px;
+   
+    
+}
+
+.greetings h1 span.gradient {
+   
+
+    color:rgb(245, 247, 248); /* Color white for "JANE RIO" */
+    font-size: 260%;
+    font-family: tahoma;
+    padding-left: 9%;
+}
+.homi span.intro
+{ background: linear-gradient(to right, #ff6b6b, #556270); /* Example gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-weight:bold;
+    font-size:50px;
+    font-family: Arial, sans-serif;
+    padding-left:99px;
+    
+}  
+
+.homi h6{
+        font-family:'Segoe UI';
+	  font-size:15px;
+	  text-align:left;
+      text-align:justify;
+        padding-left:50px;
+color:rgb(171, 210, 233);"
+
+	  }
+
+      .vitae
+      {margin-top:12px;
+        background-color: #1a819e;
+       
+        
+        padding: 10px 20px;
+        padding-top: 20px;
+        padding-bottom:20px;
+        text-align: center;
+        
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 12px; /* Rounded corners */
+        cursor: pointer;
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        margin-left: 120px; /* Add indentation from the left */
+       margin-bottom:0;
+       
+      }
+      .vitae:hover {
+        background-color: #2a286d;  /* Darker green on hover */
+        
+        border-radius:30px;
+        transition: 0.5s ease-in-out;
+
+    }
+
+   .vitae a{
+color:#fff;
+text-decoration:none;
+font-family:'Segoe UI';
+
+   }
+
+   .vitae a:hover
+   {
+    font-weight:bold;
+   }
+
+    
+    
+    
+    
+.social{
+    
+   padding-left:75px;
+   margin-top:3%;
+ 
+   
+}
+.social a{
+display: flex; text-align: left;
+   
+}
+
+.social a{
+    display: inline-block;
+    margin-right: 13px;
+    
+    padding: 5px 10px;
+    background-image:linear-gradient(to left, #00a0fc, #fc01b1);
+    color: rgb(5, 8, 179);
+    text-decoration:none;
+    
+    border-radius: 12px;
+}
+
+.social a:hover {
+    color:white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
